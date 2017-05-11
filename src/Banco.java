@@ -10,16 +10,16 @@ final class Banco {
 	*/
 	
 	//hab e dano
-	static final String [] nomeHab = {"Choque do Trovao", "Para raios", "Bomba de sodio", "Helice mortal"
-										"Trovoada intensa", "Corolario voador", "Integral Glauciana"};
-	static final String[] tipoHab = {"Pedra", "Tesoura", "Papel", "Tesoura", "Pedra", "Papel"};
-	static int[]	atkPrioridade = {};
-	static int [] valAtk = new int[100];
-	static int indexHabAtk = 0;
+	static final String [] nomeHab = {"Choque do Trovao", "Para raios", "Bomba de sodio", "Helice mortal",
+										"Trovoada intensa", "Corolario voador", "Integral Glauciana", "Bilbo voador"};
+	static final String[] tipoHab = {"Pedra", "Tesoura", "Papel", "Tesoura", "Pedra", "Papel", "Tesoura", "Pedra",};
+	static final int[]	atkPrioridade = {};
+	static final int [] valAtk = new int[100];
+	static final int indexHabAtk = 0;
 
 	//pokemons
-	static Pokemon [] poke = new Pokemon[100];
-	static int indexPoke = 0;
+	static final Pokemon [] poke = new Pokemon[100]; // se fizermos isso, nao vai dar pra alterar o hp do pokemon depois, ja que a variaveeh do tipo final
+	static final int indexPoke = 0;
 	
 	//itens
 	static Item [] itens = new Item[100];
